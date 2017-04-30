@@ -23,7 +23,9 @@ The most popular word processing application in the world is extremely simple an
 Sample questions:
 
 •	Basic - Change the text to bold
+
 •	Intermediate - Change the save options so that a backup copy of the document is always created
+
 •	Expert - Reveal all formatting in the current document.
 
 Microsoft Excel
@@ -33,7 +35,9 @@ The go-to application for creating spreadsheets and charts, Microsoft Excel has 
 Sample questions:
 
 •	Basic - Clear the data in cell B4.
+
 •	Intermediate - Give the chart on the worksheet “Charts” the title “Staff”.
+
 •	Expert - In the current worksheet use the filter list option so that only “Electronics” items are displayed.
 
 Microsoft PowerPoint
@@ -43,7 +47,9 @@ Now synonymous with slideshow presentations, Microsoft PowerPoint continues to b
 Sample questions:
 
 •	Basic - View the presentation without using F5
+
 •	Intermediate - Automatically change the title of the current slide to “Title Case”
+
 •	Expert - Use PowerPoint to send the presentation as an email attachment
 
 Microsoft Outlook
@@ -53,5 +59,7 @@ Seeing as email is crucial for office-based communication, it is little wonder w
 Sample questions:
 
 •	Basic - Create a new appointment
+
 •	Intermediate - Navigate to where you would find all overdue tasks
+
 •	Expert - Change the configuration of Outlook to spellcheck all messages before they are sent
