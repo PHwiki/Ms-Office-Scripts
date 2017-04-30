@@ -1,3 +1,5 @@
+What you need to know about Microsoft Office tests for employees online
+
 Owing to the various shortcomings of traditional recruitment processes, more and more businesses are choosing to put job candidates through psychometric testing. Along with providing invaluable insights into individual character traits and behavioural tendencies, these assessments can also look at essential skills like numeracy and language.
 
 What’s more, they can also reveal whether would-be employees have the experience and expertise required to use certain Microsoft Office applications correctly. After all, most people only use around 20 per cent or less of their full capability, which could have a detrimental knock-on effect to your organisation’s productivity levels and profit margins. 
