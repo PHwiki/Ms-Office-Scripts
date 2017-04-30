@@ -1,0 +1,35 @@
+Sub MergeDocs() 
+    Dim rng As Range 
+    Dim MainDoc As Document 
+    Dim strFile As String, strFolder As String 
+    Dim Count As Long 
+    With Application.FileDialog(msoFileDialogFolderPicker) 
+        .Title = "Pick folder" 
+        .AllowMultiSelect = False 
+        If .Show Then 
+            strFolder = .SelectedItems(1) & Application.PathSeparator 
+        Else 
+            Exit Sub 
+        End If 
+    End With 
+    Set MainDoc = Documents.Add 
+    strFile = Dir$(strFolder & "*.doc") ' can change to .docx
+    Count = 0 
+    Do Until strFile = "" 
+        Count = Count + 1 
+        Set rng = MainDoc.Range 
+        With rng 
+            .Collapse wdCollapseEnd 
+            If Count > 1 Then 
+                .InsertBreak wdSectionBreakNextPage 
+                .End = MainDoc.Range.End 
+                .Collapse wdCollapseEnd 
+            End If 
+            .InsertFile strFolder & strFile 
+        End With 
+        strFile = Dir$() 
+    Loop 
+    MsgBox ("Files are merged") 
+lbl_Exit: 
+    Exit Sub 
+End Sub 
